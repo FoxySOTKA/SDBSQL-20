@@ -16,14 +16,16 @@ SELECT host, user FROM mysql.user;
 ````
 
 1.3. Выполняю запрос на получение списка пользователей в базе данных: 
-<img width="566" alt="список пользователей в бд" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/4608bd3f-8649-49ad-ac24-ed39dd760f8c">
+<img width="547" alt="список в бд" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/a8cbec3c-1020-469b-9abd-d88fcc5aec43">
+
 
 1.4. Даю все права для пользователя sys_temp: 
 ````
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
 ````
 
-1.5. Выполняю запрос на получение списка прав для пользователя sys_temp: (скриншот)
+1.5. Выполняю запрос на получение списка прав для пользователя sys_temp: 
+<img width="566" alt="список пользователей в бд" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/4608bd3f-8649-49ad-ac24-ed39dd760f8c">
 
 1.6. Переподключаюсь к базе данных от имени sys_temp:
 ````
