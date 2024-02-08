@@ -21,5 +21,7 @@
 Состояние и режим работы master сервера:
 <img width="564" alt="master" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/93be15ce-e22e-46a2-b689-bd2c49b7f806">
 
+
 Состояние и режим работы slave сервера:
+<img width="293" alt="slave" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/673bb265-b003-4a93-8cd1-4cb0f69bcad1">
 
