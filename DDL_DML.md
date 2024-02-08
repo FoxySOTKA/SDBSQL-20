@@ -18,18 +18,24 @@ SELECT host, user FROM mysql.user;
 1.3. Выполняю запрос на получение списка пользователей в базе данных: (скриншот)
 
 1.4. Даю все права для пользователя sys_temp: 
+````
+GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
+````
 
 1.5. Выполняю запрос на получение списка прав для пользователя sys_temp: (скриншот)
 
 1.6. Переподключаюсь к базе данных от имени sys_temp:
+````mysql -u sys_temp -p
+ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ol';
+````
 
 Для смены типа аутентификации с sha2 использую запрос: 
 ````sql
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ````
-1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачиваю дамп базы данных:
+1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачиваю дамп базы данных;
 
-1.7. Восстановливаю дамп в базу данных:
+1.7. Восстановливаю дамп в базу данных;
 
 1.8. ER-диаграмма получившейся базы данных: (скриншот)
 
