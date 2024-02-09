@@ -50,6 +50,7 @@ limit 5;
 ````
 
 #####  Скриншот работы -
+<img width="381" alt="rental films" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/cb5ed22c-d302-4c01-be8e-c91b2ae99727">
 
 
 ### Задание 4
