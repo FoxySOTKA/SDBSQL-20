@@ -33,6 +33,7 @@ payment_date between '2005:06:15 00:00:00' and '2005:06:18 23:59:59';
 ````
 
 #####  Скриншот работы -
+<img width="380" alt="prokat films" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/3c7a7616-db6b-4f5b-bd3f-8e35f4fa9fcb">
 
 
 ### Задание 3
