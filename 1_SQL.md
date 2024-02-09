@@ -72,6 +72,7 @@ active = '1';
 ````
 
 #####  Скриншот работы -
+<img width="418" alt="active pocupately" src="https://github.com/FoxySOTKA/SDBSQL-20/assets/141597247/fa429381-3b3f-42f1-ad45-99f961461505">
 
 
 
