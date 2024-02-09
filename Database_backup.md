@@ -45,6 +45,16 @@ pg_restore -d mydatabase mydatabase_backup.sql
 3.1. С помощью официальной документации приведите пример команды инкрементного резервного копирования базы данных MySQL. 
 
 #### Ответ:
-
-
+Для создания резервной копии - 
+````
+mysqldump -u [username] –p[password] [database_name] > [dump_file.sql]
+```` 
+Для восстановления БД - 
+````
+mysqlimport -u root -p rsyslog < rsyslog.sql
+````
+Для инкрементного бэкапа - 
+````
+xtrabackup --backup --target-dir=/root/backupdb/inc1 --incremental-basedir=/root/backupdb/full
+````
 
