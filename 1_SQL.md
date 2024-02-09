@@ -43,7 +43,10 @@ payment_date between '2005:06:15 00:00:00' and '2005:06:18 23:59:59';
 #### Результат:
 #####  Командная строка -
 ````sql
-
+select rental_id, rental_date, cast(rental_date as DATE)
+from rental 
+order by rental_date desc 
+limit 5;
 ````
 
 #####  Скриншот работы -
