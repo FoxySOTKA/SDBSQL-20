@@ -26,7 +26,10 @@ district not like '% %';
 #### Результат:
 #####  Командная строка -
 ````sql
-
+select payment_id, amount, cast(payment_date as DATE)
+from payment
+where amount > 10.00 and 
+payment_date between '2005:06:15 00:00:00' and '2005:06:18 23:59:59';
 ````
 
 #####  Скриншот работы -
