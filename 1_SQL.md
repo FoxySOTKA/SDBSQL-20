@@ -64,7 +64,11 @@ limit 5;
 #### Результат:
 #####  Командная строка -
 ````sql
-
+select lower(first_name), lower(last_name),
+replace(lower(first_name), 'll', 'pp'), replace(lower(last_name), 'll', 'pp')
+from customer
+where first_name = 'Kelly' or first_name = 'Willie' and 
+active = '1';
 ````
 
 #####  Скриншот работы -
