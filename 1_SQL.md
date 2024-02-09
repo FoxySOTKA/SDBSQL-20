@@ -8,6 +8,12 @@
 
 #### Результат:
 #####  Командная строка -
+````sql
+select distinct district
+from address 
+where district like 'K%a' and 
+district not like '% %';
+````
 
 #####  Скриншот работы -
 
